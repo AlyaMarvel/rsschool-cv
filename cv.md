@@ -3,7 +3,7 @@
 **********
 ## Contacts ##
 
-+ **Location:** Minsk. Belarus
++ **Location:** Minsk, Belarus
 + **Phone:** +375 29 265 8888
 + **Telegram:** @alya_marvel
 + **e-mail:** alya.marvel@gmail.com  
@@ -20,3 +20,19 @@ I worked for 12 years in the transportation of oversized cargo in my own company
 I'm good at soft-skills. It's my hobby and interest to develop myself. Have good interpersonal skills like communication skills, emotional intelligence, conflikt resolution, negotiation, decision making. Also have such skills as leadership, time management, patience, diligence and dedication I like self-learning and develop myself.
 
 Married, have two children and life experience )
+
+## Skills ##
+
++ HTML, CSS *Basic*
++ JS *in process*
++ Git, GitHub
++ VS Code
++ Adobe Photoshop, CorelDRAW
+
+## Code example ##
+
+```
+function multiply(a, b){
+  a * b
+}
+```
