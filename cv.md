@@ -1,3 +1,5 @@
+![Me](https://user-images.githubusercontent.com/101499440/159493281-ee29d9b9-998e-4e13-abd5-2fbd82eb31d9.jpg)
+
 # ALIAKSANDRA LOSEVA #
 *Student of RS School (Frontend Developer)*
 **********
@@ -15,11 +17,13 @@ SOCIAL NETWORK:
 + [**Facebook**](https://www.facebook.com/alya.marvel/)
 
 ## Briefly about myself ##
-I worked for 12 years in the transportation of oversized cargo in my own company that I organized by myself from 0. I decided to change my job, because I want to try something new, I'm tired of working for 12 years in one place without a development perspective. Now I am a second-year student of BSU with a degree in business administration. My goal is to get an EMBA. 
+I worked for 12 years in the trucking industry of oversized cargo in my own company that I organized by myself from 0. I decided to change my job, because I want to try something new, I'm tired of working for 12 years in one place without a development perspective. Now I am a second-year student of BSU with on speciality in business administration. My goal is to get an EMBA. 
 
-I'm good at soft-skills. It's my hobby and interest to develop myself. Have good interpersonal skills like communication skills, emotional intelligence, conflikt resolution, negotiation, decision making. Also have such skills as leadership, time management, patience, diligence and dedication I like self-learning and develop myself.
+I'm good at soft-skills. It's my hobby and interest to develop myself. Have good interpersonal skills like communication skills, emotional intelligence, conflikt resolution, negotiation, decision making. Also have such skills as leadership, time management, patience, diligence and dedication. I do love self-learning and develop myself.
 
 Married, have two children and life experience )
+
+**********
 
 ## Skills ##
 
@@ -28,6 +32,7 @@ Married, have two children and life experience )
 + Git, GitHub
 + VS Code
 + Adobe Photoshop, CorelDRAW
++ + *good soft-skills*
 
 ## Code example ##
 
@@ -36,3 +41,28 @@ function multiply(a, b){
   a * b
 }
 ```
+
+**********
+
+## Education & courses ##
+
+UNIVERSITY:
++ 2020-pres. BSU / *business administration*
++ 2007-2009 PJWSTK in Warsaw, Poland / *Japanese language and culture*
+
+COURSES:
++ **Frontend Developer** *in process (RS School)*
++ [HTML Academy](https://htmlacademy.ru/)
++ [Code-basics](https://ru.code-basics.com/)
++ [JavaScript](https://learn.javascript.ru/) *in process*
+
+## Experience work ##
+Small own business for 12 years - *transportation of oversized cargo*
+
+## Languages ##
+
+* Russian *native*
+* English *B1-B2*
+* Polish *fluent*
+* Japanese *basic - due no practice*
+
