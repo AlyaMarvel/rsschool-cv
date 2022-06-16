@@ -1,1 +1,1 @@
-https://AlyaMarvel.github.io/rsschool-cv/
+https://alyamarvel.github.io/rsschool-cv/
