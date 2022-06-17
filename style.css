@@ -1,19 +1,10 @@
-CSS
 @font-face {
     font-family: 'Montserrat';
-    src: url("assets\fonts\Montserrat\Montserrat-VariableFont_wght.ttf");
+    src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
     font-weight: 300;
 }
-@font-face {
-    font-family: 'Raleway';
-    src: url("assets\fonts\Raleway\Raleway-VariableFont_wght.ttf");
-    font-weight: 100;
-}
-html {
-  scroll-behavior: smooth; 
-}
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
     margin: 0; padding: 0;
     display: flex;
@@ -24,6 +15,11 @@ body {
     line-height: 1.5;
     color: #581D22;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -33,26 +29,51 @@ body {
     margin: 0 auto;
   }
 
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+
   .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none; /* Убираем стандартные маркеры */
-    padding: 20px 80px; /* Отступы между элементами списка */
-    line-height: 50px; /* Отступы между элементами списка */
-  }
+   }
 
-  * {
-    box-sizing: border-box;
-}
+   .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
 
   .contacts {
     font-weight: bold;
-    list-style: none; /* ??? */
   }
 
-  .section-title {
+   .section-title {
     font-variant: small-caps;
+    color: #094250;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.avatar {
+  align-items: center;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+  img {
+    display: block;
+    margin: auto;
   }
   
   a { 
