@@ -1,0 +1,119 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 20px;
+    color: #0D606F;
+    font-weight: 400;
+    font-family: Aleo;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/*технический класс*/
+._container {
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+
+/*---ШАПКА------------------------------------------------------------*/
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    color: #FFFFFF;
+}
+
+.header__main__container {
+        display: flex;
+    background-color: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    color: #FFFFFF;
+    min-height: 90px;
+    align-items: center;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin-left: 6px;
+    font-family: Magra;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.header__menu {
+    margin: 0px 0px 0px 158px;
+}
+
+.menu {
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    font-family: 'Red Hat Text';
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.menu__item:not(:last-child) {
+    margin: 0px 42px 0px 0px;
+}
+
+.menu__link {
+    color: inherit;
+}
+
+.header__login {
+    margin: 0px 0px 0px 196px;
+    background-color: #0D606F;
+    padding: 10px 30px;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;    
+}
+
+.login__link {
+    color: #FFFFFF;
+    font-family: "Red Hat Text";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    justify-content: center;
+}
