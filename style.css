@@ -134,7 +134,7 @@ h1 {
     text-align: center;
     justify-content: center;
 }
-/*---MAIN------------------------------------------------------------*/
+/*---MAIN.PREVIEW------------------------------------------------------------*/
 
 .main {
    flex: 1 1 auto; 
@@ -173,7 +173,7 @@ h1 {
     font-family: Aleo;
     font-size: 20px;
     line-height: 24px;
-    font-weight: 700px;
+    font-weight: 700;
     font-style: italic;
     color: #FFFFFF;
 }
@@ -235,10 +235,46 @@ input::-moz-placeholder {
     margin: 0px 18px 0px 0px;
     color: #FFFFFF;
     font-family: "Red Hat Text";
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     border-radius: 10px;
+}
+
+/*---MAIN. STEPS------------------------------------------------------------*/
+.steps__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 301px;
+}
+
+.steps__title {
+    text-align: center;
+    font-family: "Red Hat Text";
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;    
+}
+
+.steps__container__button {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.steps__button {
+}
+
+.steps__icon {
+}
+
+.steps__text {
+    margin-top: 30px;
+    font-family: Aleo;
+    font-size: 20px;
+    line-height: 24px;;
 }
 
 /*---ПОДВАЛ------------------------------------------------------------*/
