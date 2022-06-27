@@ -27,16 +27,33 @@ body {
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
     min-height: 100%;
+    min-width: 1440px;
     overflow: hidden;
 }
 
 /*технический класс*/
 ._container {
+    display: flex;
     max-width: 1200px;
     padding: 0px 15px;
     margin: 0px auto;
     box-sizing: content-box;
+}
+
+._ibg {
+    position: relative;
+}
+
+._ibg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    laft: 0;
+    object-fit: cover;
 }
 
 /*---ШАПКА------------------------------------------------------------*/
@@ -50,7 +67,7 @@ body {
 }
 
 .header__main__container {
-        display: flex;
+    display: flex;
     background-color: rgba(242, 120, 92, 0.7);
     box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
     color: #FFFFFF;
@@ -117,3 +134,123 @@ h1 {
     text-align: center;
     justify-content: center;
 }
+/*---MAIN------------------------------------------------------------*/
+
+.main {
+   flex: 1 1 auto; 
+}
+
+.preview {
+    
+}
+
+.preview__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    padding: 122px 0px 0px 0px;
+}
+
+.preview__container__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 892px;
+    min-height: 422px;
+    justify-content: space-between;
+    margin: 5px 0px 15px 0px;
+    }
+
+    .preview__title {
+    font-family: Aleo;
+    font-size: 80px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 96px;
+}
+
+.preview__text {
+    font-family: Aleo;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700px;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.preview__input {
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    height: 95px;
+    width: 892px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.preview__input__entry {
+}
+
+.preview__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    laft: 0;
+}
+
+.preview__input {
+}
+.preview__input__form {
+    display: flex;
+    justify-content: space-between;
+    min-width: 892px;
+    }
+.preview__input__entry {
+    margin-left: 15px;
+    min-width: 560px;
+    font-family: Aleo;
+    color: #F2785C;
+    font-style: italic;
+    font-size: 24px;
+    background: none;
+}
+
+input::-webkit-input-placeholder { 
+    color: #F2785C; 
+}
+input::-moz-placeholder {
+    color: #F2785C;
+}
+
+.preview__input__entry:focus{
+    font-family: Aleo;
+    color: #0D606F;
+    }
+
+.preview__search__button {
+    min-height: 59px;
+    min-width: 228px;
+    background-color: #0D606F;
+    margin: 0px 18px 0px 0px;
+    color: #FFFFFF;
+    font-family: "Red Hat Text";
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 32px;
+    border-radius: 10px;
+}
+
+/*---ПОДВАЛ------------------------------------------------------------*/
+/*
+.footer {
+    
+}
+.footer__section {
+    display: flex;
+    text-align: center;
+}
+.footer__rights {
+}
+.footer__social-media {
+}*/
